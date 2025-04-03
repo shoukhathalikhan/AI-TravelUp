@@ -47,7 +47,7 @@ app.use(session({
     resave: false,
     saveUninitialized: true,
     store: MongoStore.create({
-        mongoUrl: 'mongodb://localhost/travelscapes', // Ensure to replace with your MongoDB connection string
+        mongoUrl: 'mongodb://127.0.0.1:27017/travelscapes', // Ensure to replace with your MongoDB connection string
         collectionName: 'sessions' // Optional: Specify a collection name for sessions
     }),
     cookie: { secure: false } // Set to true if using HTTPS
