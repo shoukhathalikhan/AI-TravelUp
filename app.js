@@ -10,7 +10,8 @@ const dotenv = require('dotenv');
 const csv = require('csv-parser');
 const mongoose = require('mongoose');
 const session = require('express-session');
-const bcrypt = require('bcrypt'); // For password hashing
+const bcrypt = require("bcryptjs");
+ // For password hashing
 const connectDB = require('./db'); // Import the database connection file
 const User = require('./models/user'); // Import the User model
 const MongoStore = require('connect-mongo'); // To store sessions in MongoDB
