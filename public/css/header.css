@@ -1,0 +1,75 @@
+/* CSS styles for the header */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* Change as needed */
+}
+
+header {
+    padding: 10px 20px; /* Adjust top/bottom and left/right padding */
+    margin: 0; /* Remove any default margin */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Distribute space between elements */
+    background-color: #f8f9fa; /* Background color for header */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+.logo {
+    margin-right: left; /* Push the logo to the left */
+}
+
+.logo img {
+    height: 90px; /* Keep your logo size */
+    width: auto; /* Maintain aspect ratio */
+}
+
+.navbar {
+    display: flex; /* Flexbox for horizontal layout */
+    gap: 15px; /* Space between navbar links */
+}
+
+.navbar a {
+    padding: 5px 10px; /* Adjust padding for navbar links */
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Consistent text color */
+    font-size: 16px; /* Adjust font size */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.navbar a:hover {
+    color: #0056b3; /* Color change on hover */
+}
+
+.icons {
+    display: flex; /* Flexbox for icons */
+    gap: 10px; /* Space between icons */
+}
+
+.icons a {
+    color: #007bff; /* Icon color */
+    font-size: 18px; /* Icon size */
+    text-decoration: none; /* Remove underline */
+}
+
+.icons a:hover {
+    color: #0056b3; /* Change color on hover */
+}
+
+.welcome-user {
+    color: #007bff; /* Consistent color for welcome message */
+    font-weight: bold; /* Optional styling */
+}
+
+
+.alert-success {
+    background-color: lightblue; /* Light red background */
+    color:  #007bff; /* Darker red text */
+    border-color:rgb(84, 149, 210); /* Border color */
+  }
+  
+  /* Custom styling for success alerts */
+  .alert-danger {
+    background-color: #d4edda; /* Light green background */
+    color: #155724; /* Dark green text */
+    border-color: #c3e6cb; /* Border color */
+  }
